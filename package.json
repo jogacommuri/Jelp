@@ -1,0 +1,21 @@
+{
+  "name": "zenefits-coding-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0",
+    "react-google-maps": "^9.0.2",
+    "react-scripts": "1.0.14",
+    "react-star-rating": "^1.4.2",
+    "react-stars": "^2.2.4",
+    "recharts": "^1.0.0-beta.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
