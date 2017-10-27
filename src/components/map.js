@@ -3,6 +3,7 @@ import {Well, Row, Col, Image} from 'react-bootstrap';
 //import Places from './places.js';
 import ReactStars from 'react-stars'
 import NoImage from './images/No_Image_Available.jpg'; 
+import Logo from './images/jelp.png'; 
 
 class Map extends Component{
   constructor(props){
@@ -170,7 +171,7 @@ class Map extends Component{
            <input id="placeInput" className="search-box" type="text" placeholder="Search here!" />
         </Col>
          <Col xs={8} sm={8} md={8} lg={8} mdOffset={2} lgOffset={2} xsOffset={2} smOffset={2} style={{'textAlign':'center'}}>
-           <h2> Jelp </h2>
+           <h2> <Image className="logo" src={Logo} /> Jelp </h2>
            <hr />
             <Col xs={12} sm={12} md={2} lg={2}>
               <p><i className="fa fa-cutlery" aria-hidden="true"></i> Food</p>
